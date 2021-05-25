@@ -18,6 +18,25 @@ class _InheritedWidget extends InheritedWidget {
     return true;
   }
 }
+//如果不需要刷新頁面的話, 就可以把configWrapper換成底下的
+// class ConfigWrapper extends StatelessWidget {
+//   ConfigWrapper({Key key, this.config, this.child});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return new _InheritedWidget(data: this.config, child: this.child);
+//   }
+//
+//   static EnvConfig of(BuildContext context) {
+//     final _InheritedWidget inheritedConfig =
+//     context.dependOnInheritedWidgetOfExactType<_InheritedWidget>();
+//     return inheritedConfig.data;
+//   }
+//
+//   final EnvConfig config;
+//
+//   final Widget child;
+// }
 
 class ConfigWrapper extends StatefulWidget {
 
@@ -40,6 +59,8 @@ class ConfigWrapper extends StatefulWidget {
 
 class _ConfigWrapperState extends State<ConfigWrapper> {
 
+  //如果不需要刷新頁面的話, 就不需要這段代碼
+  //且ConfigWrapper就會改成StatelessWidget
   void incrementCounter() {
     setState(() {
       widget.config.count++;

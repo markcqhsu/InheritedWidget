@@ -1,3 +1,3 @@
 class EnvConfig {
-  int count;
+  int count = 0;
 }
