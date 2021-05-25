@@ -1,16 +1,12 @@
-# temp_0525
+# Inherited Widget 學習
 
-A new Flutter project.
+學習Flutter 嚴重卡關, InheritedWidget的部分好像知道意思,
+但是卻完全無法實作, 找了一堆範例, 但是卻都無法執行成功.
 
-## Getting Started
+找到了一個不錯的billbill博主, 希望可以照著完成這個學程.
 
-This project is a starting point for a Flutter application.
+博主的網址：
+https://blog.csdn.net/qq_43377749/article/details/114679027
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+其billbill頻道：
+https://www.bilibili.com/video/BV1FV411e74h?from=search&seid=8461137699747179872
